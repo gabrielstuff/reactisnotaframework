@@ -1,2 +1,4 @@
 onlyBuiltDependencies:
   - sqlite3
+  - postgres
+  - better-sqlite3
