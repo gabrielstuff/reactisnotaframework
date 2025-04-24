@@ -8,5 +8,15 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/icon'
-  ]
+  ],
+  future: {
+    compatibilityVersion: 4,
+  },
+
+  content: {
+    database: {
+      type: 'postgres',
+      url: process.env.DATABASE_URL!,
+    },
+  },
 })
