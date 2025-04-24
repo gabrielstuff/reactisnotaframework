@@ -12,7 +12,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-
+  nitro: {
+    preset: 'cloudflare_pages',
+  },
   content: {
     database: {
       type: 'postgres',
