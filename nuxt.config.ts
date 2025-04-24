@@ -12,13 +12,14 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  
   nitro: {
     preset: 'cloudflare_pages',
   },
   content: {
     database: {
-      type: 'postgres',
-      url: process.env.DATABASE_URL!,
+      type: 'd1',
+      bindingName: 'db',
     },
   },
 })
