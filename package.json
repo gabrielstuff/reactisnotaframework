@@ -1,7 +1,8 @@
 {
-  "name": "nuxt-app",
+  "name": "reactisnotaframework",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.9.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
