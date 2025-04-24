@@ -2,3 +2,6 @@ onlyBuiltDependencies:
   - sqlite3
   - postgres
   - better-sqlite3
+  - "@parcel/watcher"
+  - esbuild
+  - unrs-resolver
