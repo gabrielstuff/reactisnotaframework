@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/icon'
   ],
   nitro: {
-    preset: 'cloudflare_pages',
+    preset: 'cloudflare_module',
   },
   content: {
     database: {

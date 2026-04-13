@@ -1,6 +1,0 @@
-onlyBuiltDependencies:
-  - sqlite3
-  - better-sqlite3
-  - "@parcel/watcher"
-  - esbuild
-  - unrs-resolver
