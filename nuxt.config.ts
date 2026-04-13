@@ -9,10 +9,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon'
   ],
-  future: {
-    compatibilityVersion: 4,
-  },
-  
   nitro: {
     preset: 'cloudflare_pages',
   },
